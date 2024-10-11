@@ -53,7 +53,6 @@ This project utilizes a range of modern web development tools and libraries, inc
 │   │   ├── AboutMe.js
 │   │   ├── Projects.js
 │   │   ├── ModalProject.js
-│   ├── assets
 │   ├── App.js
 │   ├── index.js
 │   └── theme.js

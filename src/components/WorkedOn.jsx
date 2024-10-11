@@ -1,7 +1,7 @@
 import { Box, Flex, Text, Image, Wrap, WrapItem } from "@chakra-ui/react";
 
 const companies = [
-  { name: "Company A", logo: "/assets/camlogo.png" },
+  { name: "Company A", logo: "/dfs/camlogo.png" },
   { name: "Company B", logo: "/path/to/logoB.png" },
   { name: "Company C", logo: "/path/to/logoC.png" },
   { name: "Company D", logo: "/path/to/logoD.png" },

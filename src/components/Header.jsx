@@ -69,7 +69,7 @@ export const Header = () => {
 
                     <Box boxSize="xs" alignSelf="center" className='gradient-border-container'>
                         <Image
-                            src="/assets/Profilephoto.JPG"
+                            src="/imgs/Profilephoto.JPG"
                             className="rounded-image"
                             alt="Imagen de perfil"
                         />
