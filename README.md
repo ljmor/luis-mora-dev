@@ -1,7 +1,3 @@
-Aquí te dejo un borrador formal y detallado para el README de tu proyecto, utilizando Markdown para que se vea profesional y estructurado:
-
----
-
 # Personal Portfolio Website
 
 This repository contains the source code for my personal portfolio website. The website showcases my skills, projects, and professional background as a full-stack web developer, with a focus on both frontend and backend technologies.
