@@ -2,18 +2,18 @@ import { Box, Flex, Heading, Text, Image, Badge, Wrap, WrapItem } from "@chakra-
 
 const technologies = {
     frontend: [
-        { name: "React", logo: "/assets/images/react-logo.png", type: "Framework", badgeCol: "blue", logoColor: "#5ed3f4" },
+        { name: "React", logo: "./assets/images/react-logo.png", type: "Framework", badgeCol: "blue", logoColor: "#5ed3f4" },
         { name: "JavaScript", logo: "/assets/images/JavaScript-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#e8d44d", size: "40px" },
-        { name: "HTML5", logo: "/assets/images/html-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#dd4b24", size: "50px" },
-        { name: "CSS3", logo: "/assets/images/css-logo.svg", type: "Language", badgeCol: "yellow", logoColor: "#254bdc", size: "55px" },
-        { name: "Figma", logo: "/assets/images/Figma-logo.png", type: "UX/UI", badgeCol: "red", logoColor: "#ea4c1d", size: "55px" },
+        { name: "HTML5", logo: "./assets/images/html-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#dd4b24", size: "50px" },
+        { name: "CSS3", logo: "./assets/images/css-logo.svg", type: "Language", badgeCol: "yellow", logoColor: "#254bdc", size: "55px" },
+        { name: "Figma", logo: "./assets/images/Figma-logo.png", type: "UX/UI", badgeCol: "red", logoColor: "#ea4c1d", size: "55px" },
     ],
     backend: [
-        { name: "Python", logo: "/assets/images/python-logo.svg", type: "Language", badgeCol: "yellow", logoColor: "#2f6595", size: "55px" },
-        { name: "Node.js", logo: "/assets/images/nodejs-logo.png", type: "Runtime", badgeCol: "red", logoColor: "#6ea35f", size: "58px" },
-        { name: "Express", logo: "/assets/images/express-logo.png", type: "Framework", badgeCol: "blue" },
-        { name: "MongoDB", logo: "/assets/images/mongodb-logo.png", type: "Database", badgeCol: "green", logoColor: "#0e904b", size: "50px" },
-        { name: "MySQL", logo: "/assets/images/mysql-logo.svg", type: "Database", badgeCol: "green", logoColor: "#006b8d", size: "55px" },
+        { name: "Python", logo: "./assets/images/python-logo.svg", type: "Language", badgeCol: "yellow", logoColor: "#2f6595", size: "55px" },
+        { name: "Node.js", logo: "./assets/images/nodejs-logo.png", type: "Runtime", badgeCol: "red", logoColor: "#6ea35f", size: "58px" },
+        { name: "Express", logo: "./assets/images/express-logo.png", type: "Framework", badgeCol: "blue" },
+        { name: "MongoDB", logo: "./assets/images/mongodb-logo.png", type: "Database", badgeCol: "green", logoColor: "#0e904b", size: "50px" },
+        { name: "MySQL", logo: "./assets/images/mysql-logo.svg", type: "Database", badgeCol: "green", logoColor: "#006b8d", size: "55px" },
     ],
 };
 

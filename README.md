@@ -113,6 +113,7 @@ Some planned improvements for the portfolio website include:
 - **Contact me**: Add the contact me and footer section.
 - **Multilingual Support**: Add translations to make the portfolio accessible to a broader audience.
 - **More Animations**: Enhance the UI experience with subtle, interactive animations in various sections.
+- **Interative**: Implement the interactivity across all the buttons on the page.
 
 ## Contact
 
