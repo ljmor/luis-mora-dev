@@ -46,6 +46,7 @@ This project utilizes a range of modern web development tools and libraries, inc
 
 ```bash
 ├── public
+│   ├── assets
 │   ├── index.html
 ├── src
 │   ├── components
