@@ -6,8 +6,8 @@ import { WorkedOn } from "./WorkedOn";
 export const Header = () => {
     return (
         <Box
-            height={{ md: '880px', lg:'800px', base: '1720px' }}
-            marginTop={{ base: '30px', md: '115px', lg: '120px', xl: '90px' }}
+            height={{ md: '1500px', lg:'800px', base: '1720px', sm: '1700px' }}
+            marginTop={{ base: '30px', md: '20px', lg: '120px', xl: '90px' }}
             width="100%"
             marginLeft="auto"
             marginRight="auto"
@@ -19,7 +19,7 @@ export const Header = () => {
                 paddingTop={2}
                 gap={{ base: 16, md: '60px', lg: '80px', xl: '180px' }}
                 width="100%"
-                direction={{ base: 'column', md: 'row' }} // Cambia la dirección según el tamaño de la pantalla
+                direction={{ base: 'column', lg: 'row' }} // Cambia la dirección según el tamaño de la pantalla
             >
                 <Spacer />
 
@@ -43,7 +43,7 @@ export const Header = () => {
 
                     <Box
                         cursor='pointer'
-                        alignSelf={{ base: 'center', md: 'flex-end' }}
+                        alignSelf={{ base: 'center', lg:'flex-end' }}
                         display='flex'
                         flexDirection='row'
                         alignItems='center'
@@ -64,6 +64,8 @@ export const Header = () => {
                     </Box>
 
                 </Flex>
+
+
 
                 <Flex direction="column" gap={10}>
 

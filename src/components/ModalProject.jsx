@@ -34,7 +34,7 @@ export const ModalProject = ({ isOpen, onClose, title, body, company, to, badges
                             href={to}
                             target='_blank'
                         >
-                            👉 Check Out
+                            👉 Check It Out
                         </Link>
                     </Button>
                 </ModalFooter>

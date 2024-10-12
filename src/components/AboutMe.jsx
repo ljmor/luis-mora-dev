@@ -3,7 +3,7 @@ import { Box, Flex, Heading, Text, Image, Badge, Wrap, WrapItem } from "@chakra-
 const technologies = {
     frontend: [
         { name: "React", logo: "./assets/images/react-logo.png", type: "Framework", badgeCol: "blue", logoColor: "#5ed3f4" },
-        { name: "JavaScript", logo: "/assets/images/JavaScript-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#e8d44d", size: "40px" },
+        { name: "JavaScript", logo: "/assets/images/javaScript-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#e8d44d", size: "50px" },
         { name: "HTML5", logo: "./assets/images/html-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#dd4b24", size: "50px" },
         { name: "CSS3", logo: "./assets/images/css-logo.svg", type: "Language", badgeCol: "yellow", logoColor: "#254bdc", size: "55px" },
         { name: "Figma", logo: "./assets/images/Figma-logo.png", type: "UX/UI", badgeCol: "red", logoColor: "#ea4c1d", size: "55px" },
@@ -36,7 +36,7 @@ export const AboutMe = () => {
                     My Background
                 </Heading>
                 <Text fontSize="lg" lineHeight="tall" color="whiteAlpha.800" maxW="800px">
-                    I am a software engineer with experience in full stack web development. I have a degree on the <b>Private Technical University of Loja</b>. I have a strong foundation in
+                    I am a software engineer with experience in full stack web development and an english <b>B2 level</b>. I have a degree on the <b>Private Technical University of Loja</b>. I have a strong foundation in
                     computer science and a passion for learning new technologies. With a background in both frontend and backend development, I love building efficient and scalable web applications.
                     Furthermore I have some certificates on <b>Udemy</b> and <b>Cisco Networking Academy</b>
                 </Text>

@@ -10,7 +10,7 @@ const companies = [
 
 export const WorkedOn = () => {
   return (
-    <Box bg="#121212" p={8} borderRadius="lg" boxShadow="md" mt='16' width='90%' mx='auto'>
+    <Box bg="#121212" p={8} borderRadius="lg" boxShadow="md" mt='16' width='90%' mx='auto' cursor='default'>
       <Box>
           <Text fontSize="2xl" color="white" textAlign='center' mb={6}>
             Worked On
@@ -23,15 +23,15 @@ export const WorkedOn = () => {
             <Flex
               direction="column"
               align="center"
-              bg="gray.700"
+              bg="whiteAlpha.100"
               p={4}
-              borderRadius="md"
+              borderRadius="5px"
               boxShadow="sm"
-              _hover={{ bg: "gray.600", transform: "scale(1.05)" }}
-              transition="0.3s ease"
-              width="200px"
-              height="90px"
+              width="230px"
+              height="95px"
               justifyContent='center'
+              borderColor='whiteAlpha.200'
+              borderWidth='1px'
             >
               {/* <Image
                 src={company.logo}

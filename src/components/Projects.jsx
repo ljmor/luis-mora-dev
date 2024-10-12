@@ -11,8 +11,8 @@ export const Projects = () => {
     const projects = [
         {
             name: "Digital Documental Managment System",
-            description: "A functional prototype developed on Figma following the best flow of work inside of the UX/UI design. The prototype allows: Documental managemnt, Database search and an generative AI module",
-            body: "A group of two people we developed a functional prototype for the Loja, Ecuador Chamber of Commerce. The protoype includes 3 principal modules (Documental managemnt, Database search and an generative AI module) a strong relational database system and a simply and minimalist user interface to improve the fast learnig of the plataform to new users. Also the prototype prorpose a user-role system giving to the administration department more control on the managment of the DB files over the organization secretary department",
+            description: "A functional prototype developed on Figma following the best flow of work inside of the UX/UI design. The prototype allows: Documental managment, Database search and an generative AI module",
+            body: "A group of two people we developed a functional prototype for the Loja, Ecuador Chamber of Commerce. The protoype includes 3 principal modules (Documental managment, Database search and an generative AI module) a strong relational database system and a simply and minimalist user interface to improve the fast learning of the plataform to new users. Also the prototype prorpose a user-role system giving to the administration department more control on the managment of the DB files over the organization secretary department",
             company: "Loja Chamber of Commerce",
             link: "https://www.figma.com/proto/pQGasygHI0C3iLBnIFHVd7/Sistema-de-gesti%C3%B3n-documental-digital---CC-Loja?node-id=0-1&t=ro7xXoGWlRVmir4g-1",
             projectsBadges: [

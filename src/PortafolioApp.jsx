@@ -5,6 +5,8 @@ import './index.css';
 import { AboutMe } from "./components/AboutMe";
 import { Testimonials } from "./components/Testimonials";
 import { Projects } from "./components/Projects";
+import { ContactMe } from "./components/ContacMe";
+import { Footer } from "./components/Footer";
 
 export const PortafolioApp = () => {
     return (
@@ -14,6 +16,8 @@ export const PortafolioApp = () => {
             <AboutMe/>
             <Testimonials/>
             <Projects/>
+            <ContactMe/>
+            <Footer/>
         </Box>
     )
 }

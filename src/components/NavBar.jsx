@@ -1,6 +1,9 @@
 import { AddIcon, CloseIcon, EditIcon, ExternalLinkIcon, HamburgerIcon, RepeatIcon, SmallCloseIcon } from '@chakra-ui/icons';
 import { Box, Flex, HStack, IconButton, Button, useDisclosure, Stack, Link, Spacer, MenuButton, MenuList, MenuItem, Menu } from '@chakra-ui/react';
 import { useState } from 'react';
+import { FaPhoneAlt, FaToolbox, FaUser } from 'react-icons/fa';
+import { FaUsers } from 'react-icons/fa6';
+import { LogoNavbar } from './LogoNavbar';
 
 
 export const NavBar = () => {
@@ -8,18 +11,17 @@ export const NavBar = () => {
 
     return (
         <>
-            <Box bg="gray.800" px={16} position='fixed' width='100%' zIndex='banner' margin={0} top={0}>
+            <Box bg="gray.800" px='45px' position='fixed' width='100%' zIndex='banner' margin={0} top={0}>
                 <Flex h={'20'} alignItems="center" >
-                    <Box fontWeight="bold" fontSize="lg" color="white" width={'18%'}>
-                        {/* Aquí puedes colocar tu logo */}
-                        Mi Logo
+                    <Box width={{ base: '50%', sm: '60%', md: '22%', lg:'20%', xl: '13%' }} height="100%" display="flex" alignItems="center" mr='20px'>
+                        <LogoNavbar/>
                     </Box>
 
                     <Flex alignItems='center' justifyContent='right' width={'82%'} gap={7}>
                         <Box>
                             <HStack as="nav" spacing={8} display={{ base: 'none', md: 'flex' }}>
                                 <Link href="#inicio" style={{ textDecoration: 'none' }} color="whiteAlpha.900" fontSize="md" _hover={{ color: 'white' }} transition="font-weight 0.4s ease-in-out">
-                                    About Me
+                                    About me
                                 </Link>
                                 <Link href="#acerca" style={{ textDecoration: 'none' }} color="whiteAlpha.900" fontSize="md" _hover={{ color: 'white' }} transition="font-weight 0.2s ease-in-out">
                                     Testimonials
@@ -50,7 +52,8 @@ export const NavBar = () => {
                             <Menu>
                                 <MenuButton
                                     size="md"
-                                    bg={'gray.300'}
+                                    bgColor={'whiteAlpha.700'}
+                                    borderColor='gray.3¿800'
                                     icon={<HamburgerIcon />}
                                     aria-label="Open Menu"
                                     display={{ md: 'none' }}
@@ -58,20 +61,21 @@ export const NavBar = () => {
                                     height={9}
                                     borderRadius={4}
                                     as={IconButton}
-                                    variant='outline'
+                                    variant='solid'
+
                                 />
                                 <MenuList>
-                                    <MenuItem icon={<AddIcon />}>
-                                        New Tab
+                                    <MenuItem icon={<FaUser />}>
+                                        About Me
                                     </MenuItem>
-                                    <MenuItem icon={<ExternalLinkIcon />}>
-                                        New Window
+                                    <MenuItem icon={<FaUsers />}>
+                                        Testimonials
                                     </MenuItem>
-                                    <MenuItem icon={<RepeatIcon />}>
-                                        Open Closed Tab
+                                    <MenuItem icon={<FaToolbox />}>
+                                        Projects
                                     </MenuItem>
-                                    <MenuItem icon={<EditIcon />}>
-                                        Open File...
+                                    <MenuItem icon={<FaPhoneAlt />}>
+                                        Contact
                                     </MenuItem>
                                 </MenuList>
                             </Menu>
