@@ -13,16 +13,16 @@ export const Footer = () => {
                     <Link href="https://github.com/ljmor" isExternal>
                         <Icon as={FaGithub} w={6} h={6} _hover={{ color: "blue.400" }} />
                     </Link>
-                    <Link href="https://linkedin.com" isExternal>
+                    <Link href="https://www.linkedin.com/in/luis-javier-mora-aguilar-3391662a7/" isExternal>
                         <Icon as={FaLinkedin} w={6} h={6} _hover={{ color: "blue.400" }} />
                     </Link>
-                    <Link href="https://twitter.com" isExternal>
+                    {/* <Link href="https://twitter.com" isExternal>
                         <Icon as={FaTwitter} w={6} h={6} _hover={{ color: "blue.400" }} />
-                    </Link>
+                    </Link> */}
                 </Stack>
 
             {/* Texto centrado */}
-            <Text textAlign="center" fontSize="sm">
+            <Text textAlign="center" fontSize="sm" mt='10px'>
                 Made with ❤️ by ljmor
             </Text>
         </Box>

@@ -63,7 +63,16 @@ export const ContactMe = () => {
     };
 
     return (
-        <Box py={16} px={{ base: 6, md: 16 }} bg="#121212" color="white" display='flex' flexDirection='column'>
+        <Box
+            py={16}
+            px={{ base: 6, md: 16 }}
+            bg="#121212"
+            color="white"
+            display='flex'
+            flexDirection='column'
+            id="contact"
+            className="element"
+        >
             <Heading as="h2" size="xl" mb={8} textAlign="center">
                 Contact Me
             </Heading>
@@ -91,7 +100,7 @@ export const ContactMe = () => {
                         </Flex>
                         <Flex align="center">
                             <Icon as={FiLinkedin} w={5} h={5} mr={2} />
-                            <Link href="https://linkedin.com/in/your-profile" isExternal color="blue.400">
+                            <Link href="https://www.linkedin.com/in/luis-javier-mora-aguilar-3391662a7/" isExternal color="blue.400">
                                 LinkedIn
                             </Link>
                         </Flex>
@@ -190,7 +199,7 @@ export const ContactMe = () => {
                 </Box>
             </Flex>
 
-            
+
         </Box>
     );
 };

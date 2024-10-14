@@ -3,7 +3,7 @@ import { Box, Flex, Heading, Text, Image, Badge, Wrap, WrapItem } from "@chakra-
 const technologies = {
     frontend: [
         { name: "React", logo: "./assets/images/react-logo.png", type: "Framework", badgeCol: "blue", logoColor: "#5ed3f4" },
-        { name: "JavaScript", logo: "/assets/images/javaScript-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#e8d44d", size: "50px" },
+        { name: "JavaScript", logo: "./assets/images/javaScript-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#e8d44d", size: "50px" },
         { name: "HTML5", logo: "./assets/images/html-logo.png", type: "Language", badgeCol: "yellow", logoColor: "#dd4b24", size: "50px" },
         { name: "CSS3", logo: "./assets/images/css-logo.svg", type: "Language", badgeCol: "yellow", logoColor: "#254bdc", size: "55px" },
         { name: "Figma", logo: "./assets/images/Figma-logo.png", type: "UX/UI", badgeCol: "red", logoColor: "#ea4c1d", size: "55px" },
@@ -21,7 +21,17 @@ const technologies = {
 export const AboutMe = () => {
 
     return (
-        <Box bg="gray.900" color="white" py={12} px={8} borderRadius="lg" mt={12} height={{ lg: '900px', xl: "750px" }} alignContent='center'>
+        <Box
+            bg="gray.900"
+            color="white"
+            py={12}
+            px={8}
+            borderRadius="lg"
+            mt={12}
+            height={{ lg: '900px', xl: "750px" }}
+            alignContent='center'
+            id="about_me" className="element"
+        >
             <Heading as="h2" size="xl" textAlign="center" color="white" mb={6}>
                 About Me
             </Heading>

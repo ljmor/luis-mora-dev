@@ -40,13 +40,13 @@ This project utilizes a range of modern web development tools and libraries, inc
 - **Projects Carousel**: Interactive carousel that showcases my projects with smooth animations and scaling effects on hover.
 - **Modal Popups**: Detailed project descriptions are accessible through modals that appear when clicking "Learn More" in the Projects section.
 - **Optimized Performance**: Ensures fast load times with efficient asset management and lazy loading.
-- **Accessibility**: The website is designed with accessibility in mind, ensuring that users with disabilities can navigate through the site seamlessly.
 
 ## Project Structure
 
 ```bash
 ├── public
 │   ├── assets
+│   ├── CV.pdf
 │   ├── index.html
 ├── src
 │   ├── components
@@ -54,9 +54,8 @@ This project utilizes a range of modern web development tools and libraries, inc
 │   │   ├── AboutMe.js
 │   │   ├── Projects.js
 │   │   ├── ModalProject.js
-│   ├── App.js
+│   ├── PortafolioApp.js
 │   ├── index.js
-│   └── theme.js
 ├── .gitignore
 ├── README.md
 ├── package.json
@@ -65,8 +64,8 @@ This project utilizes a range of modern web development tools and libraries, inc
 
 - **`components/`**: Contains the main UI components like `Header`, `AboutMe`, `Projects`, and `ModalProject`.
 - **`assets/`**: Directory for storing static images or other assets.
-- **`App.js`**: The main application file where components are imported and rendered.
-- **`theme.js`**: Customization of Chakra UI theme settings.
+- **`PortafolioApp.js`**: The main application file where components are imported and rendered.
+- **`helpers/`**: Directory with de actual helpers for some necesary parts of the app.
 
 ## Installation and Setup
 
@@ -98,29 +97,20 @@ To run this project locally, follow these steps:
 
    The website will be available at `http://localhost:3000` in your browser.
 
-## Usage
-
-Once the project is up and running, you can explore the various sections:
-
-- **Header**: Provides access to my social media profiles and information about the companies I've worked with.
-- **About Me**: Learn more about my education, skills, and the technologies I use.
-- **Projects**: Browse through the carousel to view detailed information about the projects I've worked on. Click "Learn More" to open a modal with additional details about each project.
 
 ## Future Improvements
 
 Some planned improvements for the portfolio website include:
 
-- **Contact me**: Add the contact me and footer section.
 - **Multilingual Support**: Add translations to make the portfolio accessible to a broader audience.
-- **More Animations**: Enhance the UI experience with subtle, interactive animations in various sections.
-- **Interative**: Implement the interactivity across all the buttons on the page.
+- **Filter Projects**: Add 2 filters for *Company's Projects* and *Personal Projects*.
 
 ## Contact
 
 Feel free to reach out to me for any questions or collaboration opportunities:
 
 - **Email**: ljmora004@outlook.com
-- **LinkedIn**: Under construction 👷‍♂️!
+- **LinkedIn**: [Linkedin Profile](https://www.linkedin.com/in/luis-javier-mora-aguilar-3391662a7/details/certifications/)
 - **GitHub**: [GitHub Profile](https://github.com/ljmor)
 
 ---

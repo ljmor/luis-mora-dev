@@ -1,6 +1,6 @@
 import { Button, Heading, HStack, Link, Modal, ModalBody, ModalCloseButton, ModalContent, ModalFooter, ModalHeader, ModalOverlay, Spacer, Text } from "@chakra-ui/react";
 
-export const ModalProject = ({ isOpen, onClose, title, body, company, to, badges }) => {
+export const ModalProject = ({ isOpen, onClose, title, body, company, to, badges, focusRef }) => {
 
     return (
         <Modal
@@ -8,6 +8,7 @@ export const ModalProject = ({ isOpen, onClose, title, body, company, to, badges
             onClose={onClose}
             isCentered
             motionPreset='scale'
+            finalFocusRef={focusRef}
         >
             <ModalOverlay bg='blackAlpha.300' backdropFilter='blur(10px)' />
             <ModalContent

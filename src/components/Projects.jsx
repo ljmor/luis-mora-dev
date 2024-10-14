@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useRef, useState } from "react";
 import Slider from "react-slick";
 import { Box, Heading, Text, Stack, Icon, Link, Spacer, useDisclosure, useMediaQuery, HStack, Badge } from "@chakra-ui/react";
 import { FiArrowRight, FiArrowLeft } from "react-icons/fi";
@@ -7,6 +7,7 @@ import { ModalProject } from "./ModalProject";
 export const Projects = () => {
     const { isOpen, onOpen, onClose } = useDisclosure();
     const [selectedProject, setSelectedProject] = useState({ title: '', body: '', to: '' });
+    const modalFocusRef = useRef();
 
     const projects = [
         {
@@ -95,6 +96,9 @@ export const Projects = () => {
             justifyContent='center'
             alignContent='center'
             height='700px'
+            ref={modalFocusRef}
+            id="projects"
+            className="element"
         >
             <Box mb={{ base: '50px', md: '60px' }} mt='-50px'>
                 <Heading as="h2" size="xl" mb={6} color="white" textAlign="center">
@@ -175,6 +179,7 @@ export const Projects = () => {
                 company={selectedProject.company}
                 to={selectedProject.to}
                 badges={selectedProject.badges}
+                focusRef={modalFocusRef}
             />
         </Box>
     );

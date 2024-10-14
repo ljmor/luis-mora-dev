@@ -11,7 +11,15 @@ import { FaQuoteLeft } from "react-icons/fa";
 
 export const Testimonials = () => {
     return (
-        <Box bg="#121212" color="white" py={10} px={5} cursor='default'>
+        <Box
+            bg="#121212"
+            color="white"
+            py={10}
+            px={5}
+            cursor='default'
+            id="testimonials"
+            className="element"
+        >
             <Box textAlign="center" mb={10}>
                 <Heading as="h2" size="xl" color="white" mb={4}>
                     Testimonials
