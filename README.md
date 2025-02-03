@@ -95,7 +95,7 @@ To run this project locally, follow these steps:
    npm start
    ```
 
-   The website will be available at `http://localhost:3000` in your browser.
+   The website will be available at `http://localhost:5173` in your browser.
 
 
 ## Future Improvements
@@ -115,4 +115,5 @@ Feel free to reach out to me for any questions or collaboration opportunities:
 
 ---
 
-This README aims to provide a comprehensive overview of the portfolio project, covering all technical aspects and providing easy-to-follow instructions for setting up the project.
+## License
+<p xmlns:cc="http://creativecommons.org/ns#" xmlns:dct="http://purl.org/dc/terms/"><a property="dct:title" rel="cc:attributionURL" href="https://github.com/ljmor/luis-mora-dev">Web Portafolio</a> by <a rel="cc:attributionURL dct:creator" property="cc:attributionName" href="https://github.com/ljmor">Luis Mora</a> is licensed under <a href="https://creativecommons.org/licenses/by-nc/4.0/?ref=chooser-v1" target="_blank" rel="license noopener noreferrer" style="display:inline-block;">CC BY-NC 4.0<img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/by.svg?ref=chooser-v1" alt=""><img style="height:22px!important;margin-left:3px;vertical-align:text-bottom;" src="https://mirrors.creativecommons.org/presskit/icons/nc.svg?ref=chooser-v1" alt=""></a></p>

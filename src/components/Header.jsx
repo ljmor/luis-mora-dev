@@ -1,5 +1,5 @@
-import { Box, Flex, Heading, Text, Image, IconButton, HStack, Spacer, Link } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin, FaStackOverflow, FaTwitter } from "react-icons/fa";
+import { Box, Flex, Heading, Text, Image, IconButton, HStack, Spacer, Link, Tooltip } from "@chakra-ui/react";
+import { FaGithub, FaKaggle, FaLinkedin, FaStackOverflow, FaTwitter } from "react-icons/fa";
 import { MdKeyboardDoubleArrowDown } from "react-icons/md";
 import { WorkedOn } from "./WorkedOn";
 import { Link as ScrollLink } from 'react-scroll';
@@ -38,8 +38,8 @@ export const Header = () => {
 
                     <Box width={{ md: '440px', base: '350px' }} alignSelf="center" mx="2px">
                         <Text as="p" fontSize={20} textAlign={{ base:"center", md:"left" }} color="white">
-                            I'm a software engineer with a 2 years experience, my principal focus is on <b>full stack web development</b>. I think
-                            the soft skills like team work are the fundamental base of any <i>successful project</i>.
+                            I'm a student of software engineering with a 8 months of practice experience, my principal focus is on <b>full stack web development</b> and <b>data science</b>. I think
+                            the soft skills like team work & adaptability are the fundamental base of any <i>successful project</i>.
                         </Text>
                     </Box>
 
@@ -93,15 +93,21 @@ export const Header = () => {
 
                     <Box alignSelf="center">
                         <HStack>
-                            <Link href="https://github.com/ljmor" isExternal>
-                                <IconButton isRound icon={<FaGithub />} />
-                            </Link>
-                            <Link href="https://www.linkedin.com/in/luis-javier-mora-aguilar-3391662a7/" isExternal>
-                                <IconButton isRound icon={<FaLinkedin />} />
-                            </Link>
-                            {/* <Link href="" isExternal>
-                                <IconButton isRound icon={<FaStackOverflow />} />
-                            </Link> */}
+                            <Tooltip label='GitHub' placement='bottom' hasArrow>
+                                <Link href="https://github.com/ljmor" isExternal>
+                                    <IconButton isRound icon={<FaGithub />} />
+                                </Link>
+                            </Tooltip>
+                            <Tooltip label='LinkedIn' placement='bottom' hasArrow>
+                                <Link href="https://www.linkedin.com/in/luis-javier-mora-aguilar-3391662a7/" isExternal>
+                                    <IconButton isRound icon={<FaLinkedin />} />
+                                </Link>
+                            </Tooltip>
+                            <Tooltip label='Kaggle' placement='bottom' hasArrow>
+                                <Link href="https://www.kaggle.com/ljmor004" isExternal >
+                                    <IconButton isRound icon={<FaKaggle />} />
+                                </Link>
+                            </Tooltip>
                         </HStack>
                     </Box>
 

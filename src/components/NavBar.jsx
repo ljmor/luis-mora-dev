@@ -54,13 +54,13 @@ export const NavBar = () => {
                                 </ScrollLink>
 
                                 <ScrollLink
-                                    to='testimonials'
+                                    to='articles'
                                     smooth
                                     offset={-110}
                                     duration={1000}
                                 >
                                     <Link style={{ textDecoration: 'none' }} color="whiteAlpha.900" fontSize="md" _hover={{ color: 'white' }} transition="font-weight 0.2s ease-in-out">
-                                        Testimonials
+                                        Articles
                                     </Link>
                                 </ScrollLink>
 
@@ -132,13 +132,13 @@ export const NavBar = () => {
                                     </ScrollLink>
 
                                     <ScrollLink
-                                        to='testimonials'
+                                        to='articles'
                                         smooth
                                         offset={-110}
                                         duration={1000}
                                     >
                                         <MenuItem icon={<FaUsers />}>
-                                            Testimonials
+                                            Articles
                                         </MenuItem>
                                     </ScrollLink>
 

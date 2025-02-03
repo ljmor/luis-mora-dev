@@ -2,8 +2,8 @@ import { Box, Flex, Text, Image, Wrap, WrapItem } from "@chakra-ui/react";
 
 const companies = [
   { name: "Camara de Comercio de Loja", logo: "./assets/images/camcom-logo.png", size: "140px", currentColor: "" },
-  { name: "Clipp App", logo: "./assets/images/clipp-logo.png", size: "125px", currentColor: "#376642" },
-  { name: "Hospital Clínica San Jose", logo: "./assets/images/sanjosehosp-logo.png", size: "110px", currentColor: "#376642" }
+  { name: "Clipp App", logo: "./assets/images/clipp-logo.png", size: "125px", currentColor: "" },
+  { name: "Hospital Clínica San Jose", logo: "./assets/images/sanjosehosp-logo.png", size: "110px", currentColor: "" }
   // Añade más compañías aquí
 ];
 

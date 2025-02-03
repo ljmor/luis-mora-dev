@@ -1,5 +1,5 @@
 import { Box, Text, Stack, Link, Icon, Divider } from "@chakra-ui/react";
-import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
+import { FaGithub, FaKaggle, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export const Footer = () => {
     return (
@@ -16,9 +16,9 @@ export const Footer = () => {
                     <Link href="https://www.linkedin.com/in/luis-javier-mora-aguilar-3391662a7/" isExternal>
                         <Icon as={FaLinkedin} w={6} h={6} _hover={{ color: "blue.400" }} />
                     </Link>
-                    {/* <Link href="https://twitter.com" isExternal>
-                        <Icon as={FaTwitter} w={6} h={6} _hover={{ color: "blue.400" }} />
-                    </Link> */}
+                    <Link href="https://www.kaggle.com/ljmor004" isExternal>
+                        <Icon as={FaKaggle} w={6} h={6} _hover={{ color: "blue.400" }} />
+                    </Link>
                 </Stack>
 
             {/* Texto centrado */}

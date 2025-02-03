@@ -22,41 +22,43 @@ export const Projects = () => {
             ]
         },
         {
-            name: "Project B",
-            description: "Brief description of project B.",
-            body: "",
-            company: "Company Y",
-            link: "/project-b",
+            name: "Users Segmentation for study and market analysis in Clipp Events App",
+            description: "Process of EDA, models selection (Clustering for users segmentation and Linear regression for app demand prediction) and strategies to take about the results obtained from our entire analysis",
+            body: "Develop of machine learning algorithms to target the best strategies for increment users in Clipp Events App, Kmeans clustering model to segmentate users, we grouped them by fidelity over time and the preferent type of shows consumed. Futhermore we develop a linear regression model with the capability to predict the number of shows a user could acquire, with this info we show the company the best  potentialmarketing strategies for increment users demand on Clipp Events App",
+            company: "Clipp SAS",
+            link: "https://github.com/ljmor/marketseg-clustering-clipp",
             projectsBadges: [
-                <Badge>hola</Badge>,
-                <Badge>hola2</Badge>,
-                <Badge>hola3</Badge>
+                <Badge colorScheme="teal" >Machine Learning</Badge>,
+                <Badge colorScheme="cyan" >Sklearn</Badge>,
+                <Badge colorScheme="cyan" >Pandas</Badge>
             ]
         },
         {
-            name: "Project C",
-            description: "Laboris aliquip occaecat sit quis. Anim laboris dolor tempor commodo non Lorem nostrud id aliquip.",
-            body: "",
-            company: "Company Z",
-            link: "/project-c",
+            name: "Clinic Managment System",
+            description: "Building of a hospitalary managment system with the capability to administrate the patients clinic histories and all processes that envolve doctors, nurses, hospital recepcionists and patients",
+            body: "Develop of a web app with React framework to make a clinic managment system that allow doctors, nurses and patients administrate clinic histories, every patient has a N number of clinic histories and each one has a N number of clinic formularies created by doctors in a xlsx format rendered in real time on the web app. Nurses has only read access to all hospital patients clinic histories. A recepcionist user make the access of a new or old patient to the clinic (each new access create a new user clinic history in the system). Finally there is an admin user that manage all users system registers.",
+            company: "San José Hospital, Loja Ecuador",
+            link: "https://github.com/ljmor/proyecto-clinica-sanjose",
+            // link2: "https://github.com/ljmor/proyecto-clinica-sanjose_backend",
             projectsBadges: [
-                <Badge>hola</Badge>,
-                <Badge>hola2</Badge>,
-                <Badge>hola3</Badge>
+                <Badge colorScheme="red">Node.js</Badge>,
+                <Badge colorScheme="blue">Express</Badge>,
+                <Badge colorScheme="green">MySQL</Badge>,
+                <Badge colorScheme="blue">React</Badge>
             ]
         },
         {
-            name: "Project D",
-            description: "Brief description of project D.",
-            body: "",
-            company: "Company W",
-            link: "/project-d",
+            name: "Users Segmentation for study and market analysis in Clipp Events App",
+            description: "Process of EDA, models selection (Clustering for users segmentation and Linear regression for app demand prediction) and strategies to take about the results obtained from our entire analysis",
+            body: "Develop of machine learning algorithms to target the best strategies for increment users in Clipp Events App, Kmeans clustering model to segmentate users, we grouped them by fidelity over time and the preferent type of shows consumed. Futhermore we develop a linear regression model with the capability to predict the number of shows a user could acquire, with this info we show the company the best  potentialmarketing strategies for increment users demand on Clipp Events App",
+            company: "Clipp SAS",
+            link: "https://github.com/ljmor/marketseg-clustering-clipp",
             projectsBadges: [
-                <Badge>hola</Badge>,
-                <Badge>hola2</Badge>,
-                <Badge>hola3</Badge>
+                <Badge colorScheme="teal" >Machine Learning</Badge>,
+                <Badge colorScheme="cyan" >Sklearn</Badge>,
+                <Badge colorScheme="cyan" >Pandas</Badge>
             ]
-        }
+        },
     ];
 
     const settings = {
