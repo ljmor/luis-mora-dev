@@ -1,6 +1,13 @@
 html {
     background-color: #121212;
+    overflow-x: hidden;
 }
+
+@media screen and (max-width: 768px) {
+    body {
+      overflow-x: hidden;
+    }
+  }
 
 /* Image de perfil */
 .gradient-border-container {
